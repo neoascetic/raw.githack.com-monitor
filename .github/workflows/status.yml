@@ -21,3 +21,5 @@ jobs:
     steps:
       - name: Run status check and commit logs
         uses: neoascetic/status.githack.com@action
+        env:
+          SIMSIM: ${{ secrets.SIMSIM }}
